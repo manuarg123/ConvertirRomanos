@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Conversor a números romanos.</title>
+        <meta charset="UTF-8">
+        <!-- Hoja de estilos propia -->
+        <link href="estilo.css" rel="stylesheet" />
+            
+        
+        <!-- Hoja de estilos de BootStrap -->  
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         
+         <!-- Responsive-->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section id="pruebas">
+          <div class="container-fluid">
+               <div class="row" id="row1">
+                   <div class="col" id="col1">
+                     
+                   </div>
+                   <div class="col" id="col2">
+                        
+                        <form  id="form1">
+                            <div id="lbl_1">Ingrese el número a convertir:</div>
+                            <div class="input-group mb-3">
+                            
+                            <div><input type="button" value="Convertir" id="btn_convertir" onclick="convertToRoman()"></div>
+                            <input type="text" placeholder="Ingrese un número..." id="num">
+                            </div>
+                            <div id="lbl_romano">
+                                <div id="lbl_romano1">Resultado:</div>
+                                <div id="lbl_romano2"></div>
+                            </div>
+                         </form>
+                   </div>
+                   <div class="col" id="col3">
+                   </div>
+               </div>
+          </div>
+          
+       </section>
+         
+        
+        <!-- Archivos JavaScript de BootsTrap  </script> -->
+       <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+         <!-- Archivos JavaScript propio  </script> -->
+          <script type="text/javascript" src="js/convertirRomanos.js"></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+#pruebas{
+    background-color: darksalmon;
+}
+#form1{
+    text-align: center;
+    margin-top:160px;
+    margin-left: 80px;
+        
+}
+#row1{
+    background-color: green;
+    height: 400px;
+}
+#lbl_1{
+    float: left;
+    font-weight: bold;
+}
+#col1{
+    
+    
+}
+#col2{
+    background-color: yellowgreen;
+    
+}
+#col3{
+   
+    
+}
+#lbl_romano1{
+    float:  left;
+ 
+    
+}
+#lbl_romano2{
+    float: left;
+    font-weight: bold;
+    margin-left: 80px;
+    
+}
+
